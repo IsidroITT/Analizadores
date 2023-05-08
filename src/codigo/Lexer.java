@@ -9,7 +9,7 @@ import static codigo.Tokens.*;
  * on 5/8/23 12:07 PM from the specification file
  * <tt>/home/kobayashi/Desktop/TEC/1-Automatas/U3/Analizador/src/codigo/Lexer.flex</tt>
  */
-class Lexer {
+public class Lexer {
 
   /** This character denotes the end of file */
   public static final int YYEOF = -1;
@@ -242,7 +242,7 @@ class Lexer {
    *
    * @param   in  the java.io.Reader to read input from.
    */
-  Lexer(java.io.Reader in) {
+  public Lexer(java.io.Reader in) {
     this.zzReader = in;
   }
 
